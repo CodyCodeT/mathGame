@@ -1,0 +1,49 @@
+* {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    background-color: plum;
+    border-radius: 35% 15%;
+    height: 48px;
+    width: 75px;
+    border-color: pink;
+    border-style: none;
+}
+
+.equation {
+    background-color: pink;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    padding: 24px;
+}
+
+p.pts,
+h1.count {
+    font-size: 36px;
+    background-color: plum;
+    margin: 12px;
+}
+
+h1.ret {
+    display: flex;
+    justify-content: center;
+}
